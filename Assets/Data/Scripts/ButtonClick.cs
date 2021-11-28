@@ -19,10 +19,12 @@ namespace Valve.VR.InteractionSystem.Sample {
             if (ui != null) {
                 table.SetFlag(null, true);
                 
-                if (table.chosenBuilding != null) {
-                    table.chosenBuilding.transform.position = table.chosenBuildingData[0];
-                    table.chosenBuilding.transform.localScale = table.chosenBuildingData[1];
-                }
+                Destroy(table.chosenBuilding.GetComponent<HideAndCreate>().bigBuilding);
+                
+                // if (table.chosenBuilding != null) {
+                //     table.chosenBuilding.transform.position = table.chosenBuildingData[0];
+                //     table.chosenBuilding.transform.localScale = table.chosenBuildingData[1];
+                // }
             }
         }
     }

@@ -24,16 +24,16 @@ public class TableData : MonoBehaviour {
     }
 
     public void SetFlag(Transform transform, bool flag) {
-        GetComponent<MeshRenderer>().enabled = flag;
-        GetComponent<BoxCollider>().enabled = flag;
-        GetComponent<Interactable>().enabled = flag;
-        // gameObject.SetActive(flag);
+        // GetComponent<MeshRenderer>().enabled = flag;
+        // GetComponent<BoxCollider>().enabled = flag;
+        // GetComponent<Interactable>().enabled = flag;
+        gameObject.SetActive(flag);
 
-        for (int i = 0; i < buildings.Count; i++) {
-            if (transform != null && buildings[i].name == transform.name) continue;
-
-            // TODO: change BoxCollider to MeshCollider
-            buildings[i].gameObject.SetActive(flag);
-        }
+        // for (int i = 0; i < buildings.Count; i++) {
+        //     if (transform != null && buildings[i].name == transform.name) continue;
+        //
+        //     // TODO: change BoxCollider to MeshCollider
+        //     buildings[i].gameObject.SetActive(flag);
+        // }
     }
 }

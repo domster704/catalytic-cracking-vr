@@ -22,7 +22,7 @@ public class HideAndCreate : MonoBehaviour {
     }
 
     private void GetPinchDown() {
-        if (xButton.GetStateDown(SteamVR_Input_Sources.Any) && _interactable.isHovering) {
+        if (xButton.GetStateDown(SteamVR_Input_Sources.Any) && _interactable.isHovering && bigBuilding != null) {
             table.chosenBuilding = gameObject;
             table.chosenBuildingData[0] = transform.position;
             table.chosenBuildingData[1] = transform.localScale;
@@ -33,12 +33,13 @@ public class HideAndCreate : MonoBehaviour {
 
     private void MoveTableUnderGround() {
         table.SetFlag(null, false);
+        bigBuilding.transform.localScale = new Vector3(scale, scale, scale);
         Instantiate(bigBuilding, transform.position, Quaternion.identity);
         // transform.position = new Vector3(transform.position.x, 0, transform.position.z);
-        MoveBuildingUp();
+        // MoveBuildingUp();
     }
 
-    private void MoveBuildingUp() {
-        transform.localScale = new Vector3(scale / table.transform.localScale.x, scale / table.transform.localScale.y, scale / table.transform.localScale.z);
-    }
+    // private void MoveBuildingUp() {
+    //     transform.localScale = new Vector3(scale / table.transform.localScale.x, scale / table.transform.localScale.y, scale / table.transform.localScale.z);
+    // }
 }
