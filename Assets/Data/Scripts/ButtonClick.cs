@@ -8,8 +8,8 @@ namespace Valve.VR.InteractionSystem.Sample {
 
         protected override void Awake() {
             base.Awake();
-            table = GameObject.Find("Table").GetComponent<TableData>();
-            
+            // table = GameObject.Find("Table").GetComponent<TableData>();
+
             ui = this.GetComponentInParent<SkeletonUIOptions>();
         }
 
@@ -17,8 +17,8 @@ namespace Valve.VR.InteractionSystem.Sample {
             base.OnButtonClick();
 
             if (ui != null) {
-                Debug.Log("xd");
-                table.transform.position = table.startPos;
+                table.SetFlag(null, true);
+                
                 if (table.chosenBuilding != null) {
                     table.chosenBuilding.transform.position = table.chosenBuildingData[0];
                     table.chosenBuilding.transform.localScale = table.chosenBuildingData[1];

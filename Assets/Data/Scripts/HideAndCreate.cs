@@ -6,9 +6,10 @@ public class HideAndCreate : MonoBehaviour {
     private Interactable _interactable;
     public SteamVR_Action_Boolean xButton;
     private TableData table;
-    private GameObject bigBuilding;
-    private bool _isAnimated;
+    public GameObject bigBuilding;
 
+    public float scale = 3f;
+    
     public bool _isTouched;
 
     private void Start() {
@@ -17,48 +18,27 @@ public class HideAndCreate : MonoBehaviour {
     }
 
     public void Update() {
-        if (_isTouched) {
-            MoveTableUnderGround();
-        }
-
-        if (_isAnimated) {
-            AnimateBigBuildingAppearance();
-        }
-
         GetPinchDown();
     }
 
     private void GetPinchDown() {
         if (xButton.GetStateDown(SteamVR_Input_Sources.Any) && _interactable.isHovering) {
-            _isTouched = true;
-
             table.chosenBuilding = gameObject;
             table.chosenBuildingData[0] = transform.position;
             table.chosenBuildingData[1] = transform.localScale;
+            
+            MoveTableUnderGround();
         }
     }
 
     private void MoveTableUnderGround() {
-        if (table.transform.position.y >= -3) {
-            table.transform.position += new Vector3(0, -1, 0) * Time.deltaTime;
-        }
-        else {
-            _isTouched = false;
-            MoveBuildingUp();
-        }
+        table.SetFlag(null, false);
+        Instantiate(bigBuilding, transform.position, Quaternion.identity);
+        // transform.position = new Vector3(transform.position.x, 0, transform.position.z);
+        MoveBuildingUp();
     }
 
     private void MoveBuildingUp() {
-        transform.localScale = new Vector3(3, 3, 3);
-        _isAnimated = true;
-    }
-
-    private void AnimateBigBuildingAppearance() {
-        if (transform.position.y >= 1) {
-            _isAnimated = false;
-            return;
-        }
-
-        transform.position += new Vector3(0, 0.1f, 0);
+        transform.localScale = new Vector3(scale / table.transform.localScale.x, scale / table.transform.localScale.y, scale / table.transform.localScale.z);
     }
 }
