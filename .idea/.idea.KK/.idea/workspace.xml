@@ -3,36 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="951efbe2-497c-4098-915d-2c9387f55470" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KK/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Materials/Buildings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Materials/Buildings.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Materials/Buildings/АВО.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Materials/Buildings/АВО.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Materials/Buildings/Вентилятор.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Materials/Buildings/Помпа.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Materials/Buildings/Помпа.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Materials/Buildings/Реактор/FrontColor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Materials/Buildings/Реактор/FrontColor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Materials/Buildings/Рек колонна.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Materials/Buildings/Труба.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Models.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Models/table.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Models/table.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/Buildings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Buildings.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/Buildings/АВО.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Buildings/АВО.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/Buildings/Вентилятор.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/Buildings/Помпа.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Buildings/Помпа.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/Buildings/Рек колонна.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Buildings/Рек колонна.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/Buildings/Труба.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/HandCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/HandCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Scripts/ButtonClick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Scripts/ButtonClick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Scripts/HideAndCreate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Scripts/HideAndCreate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Scripts/TableData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Scripts/TableData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Materials/Buildings/СИПАРАТОР/Trans/Color_M00.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Materials/Buildings/СИПАРАТОР/Trans/Color_M00.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Materials/Elements/Gazol.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Materials/Elements/Gazol.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Materials/Elements/Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Materials/Elements/Water.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/Buildings/Печь/oven Variant 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Buildings/Печь/oven Variant 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SteamVR/Editor/SteamVR_Editor.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR/Editor/SteamVR_Editor.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SteamVR/Input/Editor/SteamVR_Input_Editor.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR/Input/Editor/SteamVR_Input_Editor.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SteamVR/SteamVR.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR/SteamVR.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SteamVR/WindowsHelper/SteamVR_Windows_EditorHelper.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR/WindowsHelper/SteamVR_Windows_EditorHelper.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Resources/Resources/SteamVR_Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR_Resources/Resources/SteamVR_Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Resources/Resources/SteamVR_Settings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR_Resources/Resources/SteamVR_Settings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/Open VR Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/Open VR Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SteamVR.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SteamVR.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SteamVR_Actions.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SteamVR_Actions.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SteamVR_Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SteamVR_Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SteamVR_Input_Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SteamVR_Input_Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SteamVR_Windows_EditorHelper.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SteamVR_Windows_EditorHelper.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +38,30 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5406a456cf734443b3d02a7d123287f1299290/5b/1863ecd5/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f98083cbc97e4fa0a4ef2f523feff5e113bc00/4d/d14607b6/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/TableData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f98083cbc97e4fa0a4ef2f523feff5e113bc00/18/f6020800/MeshRenderer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f98083cbc97e4fa0a4ef2f523feff5e113bc00/7f/4399c335/UnityEvent`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/da6ab58261ca4bf88d2245fa0b5e29ff18000/2c/13717b31/BoxCollider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f98083cbc97e4fa0a4ef2f523feff5e113bc00/1c/54ae78d1/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../KKSirius/Assets/Data/Scripts/HideAndCreate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.oculus@1.11.0/Runtime/OculusLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f98083cbc97e4fa0a4ef2f523feff5e113bc00/92/f24a9e87/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f98083cbc97e4fa0a4ef2f523feff5e113bc00/aa/17bc2d48/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/TableData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/ButtonClick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f98083cbc97e4fa0a4ef2f523feff5e113bc00/1c/54ae78d1/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/ArrowStream/SpawnManyArrows.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SteamVR/OpenVRUnityXRPackage/Editor/OpenVRPackageInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.oculus@1.11.0/Runtime/OculusLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/UnityP/KK/KK/Assets/Data/Scripts/FollowPath.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21M7cTvDo3z4THNgqqMHHiEGbzI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -72,6 +70,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -117,6 +116,7 @@
       <workItem from="1638019868708" duration="639000" />
       <workItem from="1638098451712" duration="1329000" />
       <workItem from="1638105741320" duration="4494000" />
+      <workItem from="1638125592771" duration="18834000" />
     </task>
     <servers />
   </component>
@@ -127,6 +127,7 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
